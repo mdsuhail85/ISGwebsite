@@ -1,0 +1,213 @@
+.about{
+    position: relative;
+    min-height: 100vh;
+    padding: 5px 5px;
+    margin: 100px 10px;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* left-img section */
+.section{
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  /* border: 1px solid black; */
+}
+.paragraph{
+  display: flex;
+  flex-direction: column;
+}
+.content1{
+   padding: 20px;
+}
+.title{
+  font-size: 24px;
+  line-height: 24px;
+}
+.image{
+  width: 20%;
+  border-radius: 8px;
+}
+
+/* right-img section */
+.content {
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    /* border: 1px solid black; */
+  }
+  
+.content-left {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-right img {
+    border-radius: 8px;
+  }
+
+
+  /* feedback section */
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: poppins;
+  }
+  /* body{
+    background: #d7cccb;
+  } */
+  .active{
+    background-color: rgb(206, 195, 195);
+    color: #000;
+    border-radius: 15px;
+    padding: 5px;
+}
+  .form-container{
+    height: 600px;
+    width: 600px;
+    margin: 10px auto;
+  }
+  .form-container form{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: conic-gradient(from -45deg, pink, purple);
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    color: #ffff;
+  }
+  .form-container form h3{
+    text-align: center;
+    font-size: 2.5rem;
+    color: purple;
+  }
+.form-container form label{
+  font-size: 1.3rem;
+  padding: 3px 0;
+}
+.form-container form input, textarea{
+  padding: 8px;
+  border-radius: 10px;
+  margin: 5px 0 5px 0;
+  border: none;
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.form-container form input[type="button"]{
+  align-self: flex-end;
+  height: 30px;
+  width: 60px;
+  font-size: 100%;
+}
+.form-container form input[type="button"]:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#testimonial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.testimonial-heading h1{
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: #202020;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 49px;
+}
+.testimonial-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonial-box{
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong{
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span{
+  color: #979797;
+  font-size: 0.8rem;
+}
+.reviews{
+  color: #f9d71c;
+}
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p{
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+
